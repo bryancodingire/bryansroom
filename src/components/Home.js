@@ -1,4 +1,4 @@
-import { Outlet,  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return <div>
@@ -11,7 +11,6 @@ const Home = () => {
             <Link to="bryansroom">Bryan's Room</Link>
           </li>
         </ul>
-        <Outlet />
     </div>;
 };
 
