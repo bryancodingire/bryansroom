@@ -7,7 +7,9 @@ function BryansRoom() {
       <h1>
         Bryan's Room
       </h1>
+
       <p>Map</p>
+      
       <button><Link to="/checkitem">Check Item</Link></button>
 
     </div>
