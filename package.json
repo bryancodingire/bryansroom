@@ -1,7 +1,7 @@
 {
   "name": "bryans-room-scavenge",
   "version": "0.1.0",
-  "homepage": "https://bryancodingire.github.io/scavenge",
+  "homepage": "https://bryancodingire.github.io/bryansroom",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
