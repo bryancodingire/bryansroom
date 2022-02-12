@@ -1,7 +1,10 @@
 // import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BryansRoom from './components/BryansRoom';
+import CheckItem from './components/CheckItem';
+import FoundItem from './components/FoundItem';
 import Home from './components/Home';
+import NotItem from './components/NotItem';
 
 function App() {
   return (
@@ -9,15 +12,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} exact />
-            {/* <Route index element={<Home />} exact/> */}
             <Route path="bryansroom" element={<BryansRoom />} />
-          {/* </Route> */}
+            <Route path="checkitem" element={<CheckItem />} />
+            <Route path="founditem" element={<FoundItem />} />
+            <Route path="notitem" element={<NotItem />} />
         </Routes>
       </BrowserRouter>
-      {/* <Routes>
-        <Route path='/' element={BryansRoom} exact/>
-        <Route path='/bryansroom' element={BryansRoom}/>
-      </Routes> */}
     </main>
   );
 }
